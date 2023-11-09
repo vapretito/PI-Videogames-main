@@ -1,0 +1,56 @@
+/* card.style.css */
+
+.divCard {
+  width: 100%;
+  background-color: #0f0f0f;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(199, 139, 139, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.divCard:hover {
+  transform: translateY(-5px);
+}
+
+.imagen {
+  width: 100%;
+  height: 200px; /* Ajusta esta altura según tus preferencias */
+  object-fit: cover;
+}
+
+.names{
+  text-align:center;
+  display:inline-flex;
+  padding: 10px;
+  height: 110px;
+  background-color: #0f0f0f;
+  color: #f5f2f2;
+  font-size: 18px;
+}
+
+.data {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  background-color: #e4e4e4;
+  padding: 10px;
+  color: #000000;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e4e4e4;
+  padding: 10px;
+  color: #f7d917;
+  font-size: 28px;
+  margin-top: -10px; 
+  margin-right: 100px; 
+}
+
+
+

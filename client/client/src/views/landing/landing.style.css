@@ -1,0 +1,49 @@
+
+.landing {
+  background-repeat: no-repeat;
+  background-image: url(https://camo.githubusercontent.com/e48feb6eb32c239667d071087ee34f133922448a9f1c1baa422c22099abf43b4/68747470733a2f2f692e696d6775722e636f6d2f76365630766d5a2e676966);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.contenedor {
+  position: absolute;
+  color: #f3ecec;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  width: 12rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f3ecec;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-top:300px
+}
+
+.btn:hover {
+  border-color: #646cff;
+  background-color: #1d5a0e;
+}
+
+
+
+.logo {
+  background-size:contain; /* Ajustar el tamaño del logo */
+  background-position: top center; /* Posicionar en la parte superior centrada */
+  height: 650px; /* Ajustar la altura deseada */
+  width: auto; /* Ancho automático en función de la altura */
+}
